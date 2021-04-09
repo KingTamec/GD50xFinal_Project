@@ -1,6 +1,6 @@
 <img src="/Images/IcoLogo.png" alt="drawing" width="200"/>
 
-<p style="text-align: center;">
+<p align="center">
 # IcoSphere a FPS game 
 ## Final project for "CS50's Introduction to Game Development"
 ### By Thomas Feuerstein :bearded_person:
