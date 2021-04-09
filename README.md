@@ -1,4 +1,4 @@
-# IcoSphere a FPS game 
+# IcoSphere a FPS game ![IcoSphere Logo](/images/IcoLogo.png)
 ## Final project for "CS50's Introduction to Game Development"
 ### By Thomas Feuerstein :bearded_person:
 
@@ -38,10 +38,16 @@ the bulk of the game's logic is handwritten
 
 
 ***Justification why this project satisfies the distinctiveness and complexity requirements***
-- This project is related to the assignments 8 & 10 of the course (dreadhalls & portal)
+- This project is related to the assignments 9 & 10 of the course (dreadhalls & portal)
 since it uses unity for a 3D game as well as a First-Person-Controller
-- However it features far more implemented features and functionalities
-- A Weapon which can be used to shoot at enemies (entities which have the [target script](https://github.com/KingTamec/GD50xFinal_Project/blob/main/Assets/Scripts/Target.cs) attached to them) 
+- However, it features far more implemented features and functionalities which are:
+    - A Weapon which can be used to shoot at enemies (entities which have the [target script](/Assets/Scripts/Weapon/Target.cs) attached to them)
+    - There are statistics which are displayed in the left-lower corner of the player-HUD
+    that are updated continuosly during gameplay (see in the [player script](/Assets/Scripts/Player.cs) kills, score, accuracy variables)
+    - A functional [elevator](/Assets/Scripts/World/ElevatorButton.cs) which uses Unity's Animation feature
+    - Three different enemies with differences in behaviour:
+    [Icos]() | [MicroIcos]() | [Spikys]()
+    ---------|---------------|-----------
 
 ***Documentation what I did and justification of any controversial design choices***
 
