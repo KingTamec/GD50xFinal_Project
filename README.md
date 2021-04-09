@@ -1,6 +1,6 @@
 # IcoSphere a FPS game 
 ## Final project for "CS50's Introduction to Game Development"
-### By Thomas Feuerstein
+### By Thomas Feuerstein :bearded_person:
 
 ***This is a non-commercial, educational only project!***
 *My purpose in this is mainly to improve my skills in scripting in C#*
@@ -18,7 +18,7 @@ automatic weapon on which a heating feature was implemented
 (If used to long it has to cool down before further usage).
 Furthermore the endboss scene features jump- and speed-pads
 which interact with the FPS controller and a laser mechanism
-which has to be activated with four capture Zones to assist 
+which has to be activated with four capture zones to assist 
 defeating the endboss.
 If the player looses all health the game is over.
 
@@ -41,8 +41,8 @@ the bulk of the game's logic is handwritten
 
 ***Documentation what I did and justification of any controversial design choices***
 
-Thanks to [Brackeys] (https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA) for usefull tutorials
-about shooting & weapon switching.
+Thanks to [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA) for usefull tutorials
+on shooting & weapon switching.
 
 Free Assets from Unity AssetStore used:
 - Texture Glass Transparent Window by GlowFox Games
@@ -74,4 +74,4 @@ dwareing for maroon.wav | prutsik for space-swoosh.mp3 | rhodesmas for win-02.wa
 mrickey13 for playerhurt1.wav & playerhurt2.wav | deathscyp for damage-1.wav |
 javierzumer for charging-loop-2.wav | unfa for medium-far-explosion.wav |
 matrixxx for powerup-07.wav |
-All remaining sounds are self-made with the programm Bfxr (https://www.bfxr.net/)
+All remaining sounds are self-made with the programm [Bfxr](https://www.bfxr.net/)
