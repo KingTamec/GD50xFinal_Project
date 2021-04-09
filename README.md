@@ -7,7 +7,7 @@
 *and to get more familiar with working with the UnityEngine*
 
 ### Description
-It is a short ego-shooter adventure were the player has to fight
+This is a short ego-shooter adventure were the player has to fight
 his/her way to the endboss.
 On the way are continously spawning sphere shaped floating
 enemies which try to tackle the player or shoot spikes toward him/her.
@@ -29,8 +29,7 @@ Here you can find a [Demo Video](https://youtu.be/8VxhTAMiaAw) :film_strip:
 - It is a cohesive start-to-finish experience there is a start menu ("StartState"), 
 a tutorial scene, a parcour with an endboss ("GameState") 
 and a final victory scene ("EndState"). 
-- Furthermore the player can quit the game anytime 
-by pressing the escape button to pop up the Pause menu ("MenuState").
+- Furthermore the player can quit the game anytime by pressing the escape button<br> to pop up the Pause menu ("MenuState").
 - There is a definitive way of winning (defeating the final boss).
 - There is a possibility of loosing the game by loosing all health or falling down ("GameOverState").
 - Altohough free third-party assets and sounds were used (see more details below) 
@@ -44,12 +43,15 @@ since it uses unity for a 3D game as well as a First-Person-Controller
     - A Weapon which can be used to shoot at enemies (entities which have the [target script](/Assets/Scripts/Weapon/Target.cs) attached to them)
     - There are statistics which are displayed in the left-lower corner of the player-HUD
     that are updated continuosly during gameplay (see in the [player script](/Assets/Scripts/Player.cs) kills, score, accuracy variables)
-    - A functional [elevator](/Assets/Scripts/World/ElevatorButton.cs) which uses Unity's Animation feature
+    - A functional [elevator](/Assets/Scripts/World/ElevatorButton.cs) which uses Unity's animation feature
     - Three different enemies with differences in behaviour:
     [Icos]() | [MicroIcos]() | [Spikys]()
-    ---------|---------------|-----------
+    - 
 
 ***Documentation what I did and justification of any controversial design choices***
+
+
+### References & Acknowledgements
 
 Thanks to [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA) for usefull tutorials
 on shooting & weapon switching.
@@ -59,7 +61,7 @@ Free Assets from Unity AssetStore used:
 - Yughues Free Metal Materials by Nobiax / Yughues
 - Sci Fi Gun by MASH Virtual
 - Sci Fi Gun Light by Factory Of Models
-- SkyBox Volume 2 by Hedgehog Team)
+- SkyBox Volume 2 by Hedgehog Team
 - VolumetricLines by Johannes Unterguggenberger
 
 Gamemusic:
