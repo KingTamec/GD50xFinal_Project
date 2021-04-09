@@ -37,8 +37,8 @@ to pop up the Pause menu ("MenuState").
 the bulk of the game's logic is handwritten
 
 ***Justification why this project satisfies the distinctiveness and complexity requirements***
-- This project is related to the assignments 9 & 10 of the course (dreadhalls & portal)
-since it uses unity for a 3D game as well as a First-Person-Controller
+- This project is related to the assignments 9 & 10 of the course (dreadhalls & portal)<br>
+since it uses Unity for a 3D Game as well as a First-Person-Controller
 - However, it features far more implemented features and functionalities which are:
     - A [weapon](/Assets/Scripts/Weapon/Gun.cs) which can be used to shoot at enemies (entities which have the [target script](/Assets/Scripts/Weapon/Target.cs) attached to them)
     - There are statistics which are displayed in the left-lower corner of the player-HUD
@@ -57,8 +57,10 @@ with the help from [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU
 
 ### References & Acknowledgements
 
+_All third-party materials are highly appreciated, thanks alot_
+
 Thanks to [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA) for usefull tutorials
-on shooting & weapon switching.
+on shooting, progress bars & weapon switching.
 
 Free Assets from Unity AssetStore used:
 - Texture Glass Transparent Window by GlowFox Games
@@ -89,5 +91,5 @@ navadaux for whipy-woosh-transition.wav | filmmakersmanual for bullet-flyby-3.wa
 dwareing for maroon.wav | prutsik for space-swoosh.mp3 | rhodesmas for win-02.wav |
 mrickey13 for playerhurt1.wav & playerhurt2.wav | deathscyp for damage-1.wav |
 javierzumer for charging-loop-2.wav | unfa for medium-far-explosion.wav |
-matrixxx for powerup-07.wav |
+matrixxx for powerup-07.wav |<br>
 All remaining sounds are self-made with the programm [Bfxr](https://www.bfxr.net/)
