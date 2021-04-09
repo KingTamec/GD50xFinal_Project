@@ -11,9 +11,9 @@ This is a short ego-shooter adventure were the player has to fight
 his/her way to the endboss.
 On the way are continously spawning sphere shaped floating
 enemies which try to tackle the player or shoot spikes toward him/her.
-To stop enemys from spawning and clear the way to new sections,
+To stop enemies from spawning and clear the way to new sections,
 the player has to capture and defend circular zones on his way.
-Starting with a laser gun after the first half the player gains a fully
+Starting with a laser gun after the first half, the player gains a fully
 automatic weapon on which a heating feature was implemented
 (If used to long it has to cool down before further usage).
 Furthermore the endboss scene features jump- and speed-pads
@@ -26,29 +26,33 @@ Here you can find a [Demo Video](https://youtu.be/8VxhTAMiaAw) :film_strip:
 
 ### Documentation :computer:
 ***Justification why this project satisfies the given Specifications***
-- It is a cohesive start-to-finish experience there is a start menu ("StartState"), 
-a tutorial scene, a parcour with an endboss ("GameState") 
+- It is a cohesive start-to-finish experience there is a start menu ("StartState"),<br>
+a tutorial scene, a parcour with an endboss ("GameState")<br> 
 and a final victory scene ("EndState"). 
-- Furthermore the player can quit the game anytime by pressing the escape button<br> to pop up the Pause menu ("MenuState").
+- Furthermore the player can quit the game anytime by pressing the escape button<br>
+to pop up the Pause menu ("MenuState").
 - There is a definitive way of winning (defeating the final boss).
 - There is a possibility of loosing the game by loosing all health or falling down ("GameOverState").
-- Altohough free third-party assets and sounds were used (see more details below) 
-the bulk of the game's logic is handwritten 
-
+- Altohough free third-party assets and sounds were used (see more details below)<br>
+the bulk of the game's logic is handwritten
 
 ***Justification why this project satisfies the distinctiveness and complexity requirements***
 - This project is related to the assignments 9 & 10 of the course (dreadhalls & portal)
 since it uses unity for a 3D game as well as a First-Person-Controller
 - However, it features far more implemented features and functionalities which are:
-    - A Weapon which can be used to shoot at enemies (entities which have the [target script](/Assets/Scripts/Weapon/Target.cs) attached to them)
+    - A [weapon](/Assets/Scripts/Weapon/Gun.cs) which can be used to shoot at enemies (entities which have the [target script](/Assets/Scripts/Weapon/Target.cs) attached to them)
     - There are statistics which are displayed in the left-lower corner of the player-HUD
     that are updated continuosly during gameplay (see in the [player script](/Assets/Scripts/Player.cs) kills, score, accuracy variables)
     - A functional [elevator](/Assets/Scripts/World/ElevatorButton.cs) which uses Unity's animation feature
     - Three different enemies with differences in behaviour:
-    [Icos]() | [MicroIcos]() | [Spikys]()
-    - 
+    [Icos](/Assets/Scripts/Entities/IcoCode.cs) | [MicroIcos](/Assets/Scripts/Entities/MicroIcoCode.cs) | [Spikys](/Assets/Scripts/Entities/SpikyCode.cs)
 
 ***Documentation what I did and justification of any controversial design choices***
+- Everything besides the detailed listing of assets and sounds below was done by myself within Unity with the help of ProBuilder
+- All scripts are handwritten by my own 
+- The level design is completely self-made except for the textureing
+- All game mechanics like shooting, progress bars and enemy behaviour are added<br> 
+with the help from [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA) YouTube tutorials.
 
 
 ### References & Acknowledgements
