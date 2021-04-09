@@ -6,6 +6,7 @@
 *My purpose in this is mainly to improve my skills in scripting in C#*
 *and to get more familiar with working with the UnityEngine*
 
+### Description
 It is a short ego-shooter adventure were the player has to fight
 his/her way to the endboss.
 On the way are continously spawning sphere shaped floating
@@ -23,8 +24,27 @@ If the player looses all health the game is over.
 
 Here you can find a [Demo Video](https://youtu.be/8VxhTAMiaAw)
 
-Free Assets from Unity AssetStore used:
+### Documentation
+***Justification why this project satisfies the given Specifications***
+- It is a cohesive start-to-finish experience there is a start menu ("StartState"), 
+a tutorial scene, a parcour with an endboss ("GameState") 
+and a final victory scene ("EndState"). 
+- Furthermore the player can quit the game anytime 
+by pressing the escape button to pop up the Pause menu ("MenuState").
+- There is a definitive way of winning (defeating the final boss).
+- There is a possibility of loosing the game by loosing all health or falling down ("GameOverState").
+- Altohough free third-party assets and sounds were used (see more details below) 
+the bulk of the game's logic is handwritten 
 
+
+***Justification why this project satisfies the distinctiveness and complexity requirements***
+
+***Documentation what I did and justification of any controversial design choices***
+
+Thanks to [Brackeys] (https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA) for usefull tutorials
+about shooting & weapon switching.
+
+Free Assets from Unity AssetStore used:
 - Texture Glass Transparent Window by GlowFox Games
 - Yughues Free Metal Materials by Nobiax / Yughues
 - Sci Fi Gun by MASH Virtual
