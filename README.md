@@ -22,9 +22,9 @@ which has to be activated with four capture zones to assist
 defeating the endboss.
 If the player looses all health the game is over.
 
-Here you can find a [Demo Video](https://youtu.be/8VxhTAMiaAw)
+Here you can find a [Demo Video](https://youtu.be/8VxhTAMiaAw) :film_strip:
 
-### Documentation
+### Documentation :computer:
 ***Justification why this project satisfies the given Specifications***
 - It is a cohesive start-to-finish experience there is a start menu ("StartState"), 
 a tutorial scene, a parcour with an endboss ("GameState") 
@@ -38,6 +38,10 @@ the bulk of the game's logic is handwritten
 
 
 ***Justification why this project satisfies the distinctiveness and complexity requirements***
+- This project is related to the assignments 8 & 10 of the course (dreadhalls & portal)
+since it uses unity for a 3D game as well as a First-Person-Controller
+- However it features far more implemented features and functionalities
+- A Weapon which can be used to shoot at enemies (entities which have the [target script](https://github.com/KingTamec/GD50xFinal_Project/blob/main/Assets/Scripts/Target.cs) attached to them) 
 
 ***Documentation what I did and justification of any controversial design choices***
 
