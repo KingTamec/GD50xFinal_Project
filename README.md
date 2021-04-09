@@ -1,4 +1,4 @@
-# IcoSphere a FPS game ![IcoSphere Logo](/images/IcoLogo.png)
+# IcoSphere a FPS game ![IcoSphere Logo](/Images/IcoLogo.png)
 ## Final project for "CS50's Introduction to Game Development"
 ### By Thomas Feuerstein :bearded_person:
 
