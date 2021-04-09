@@ -1,6 +1,10 @@
-# IcoSphere a FPS game <img src="/Images/IcoLogo.png" alt="drawing" width="200"/>
+<img src="/Images/IcoLogo.png" alt="drawing" width="200"/>
+
+<p style="text-align: center;">
+# IcoSphere a FPS game 
 ## Final project for "CS50's Introduction to Game Development"
 ### By Thomas Feuerstein :bearded_person:
+</p>
 
 ***This is a non-commercial, educational only project!***
 *My purpose in this is mainly to improve my skills in scripting in C#*
