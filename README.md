@@ -25,6 +25,7 @@ If the player looses all health the game is over.
 Here you can find a [Demo Video](https://youtu.be/8VxhTAMiaAw) :film_strip:
 
 ### Documentation :computer:
+
 ***Justification why this project satisfies the given Specifications***
 - It is a cohesive start-to-finish experience there is a start menu ("StartState"),<br>
 a tutorial scene, a parcour with an endboss ("GameState")<br> 
@@ -42,26 +43,26 @@ since it uses Unity for a 3D Game as well as a First-Person-Controller
 - However, it features far more implemented features and functionalities which are:
     - A [weapon](/Assets/Scripts/Weapon/Gun.cs) which can be used to shoot at enemies (entities which have the [target script](/Assets/Scripts/Weapon/Target.cs) attached to them)
     - There are statistics which are displayed in the right-lower corner of the player-HUD
-    that are updated continuosly during gameplay (see in the [player script](/Assets/Scripts/Player.cs) kills, score, accuracy variables)
+    that are updated continuosly during gameplay (see in the [player script](/Assets/Scripts/Player.cs): kills, score, accuracy variables)
     - A functional [elevator](/Assets/Scripts/World/ElevatorButton.cs) which uses Unity's animation feature
     - Three different enemies with differences in behaviour:
     [Icos](/Assets/Scripts/Entities/IcoCode.cs) | [MicroIcos](/Assets/Scripts/Entities/MicroIcoCode.cs) | [Spikys](/Assets/Scripts/Entities/SpikyCode.cs)
-    - 
+
 - Additionally the level design is significantly more complex
     - There are obstacles, podests, stairs, platforms, straights, corners etc.
     - There are [capture Zones](/Assets/Scripts/World/CaptureZoneCode.cs) with a sphere-collider which can only be 
     activated when the player is overlapping with the collider. When the player leaves the zone to early the progress is reset.
     - The level is split into sections in which enemies are randomly and infinitely spawning from [spawners](/Assets/Scripts/Entities/IcoSpawner.cs).
-    - The player is only able to move on when a section is cleared i.e. if its zone was captured whereby the spawners are deactivated.
+    - The player is only able to move on when a section is cleared _i.e._ if its zone was captured, whereby the spawners are deactivated.
 
 ***Documentation what I did and justification of any controversial design choices***
 - Everything besides the detailed listing of assets and sounds below was done by myself within Unity<br> 
 with the help of ProBuilder.
 - All scripts are handwritten by my own within Visual Studio Code.
-- The level design is completely self-made except for the textureing.
+- The level design is completely self-made except for the textures.
 - Some game mechanics like shooting, progress bars and enemy behaviour are added<br> 
 with the help from [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA) YouTube tutorials.
-- The overall game idea was strongly influenced by the similar game series [Serious Sam](https://en.wikipedia.org/wiki/Serious_Sam)
+- The overall game idea is mainly inspired by the similar game series [Serious Sam](https://en.wikipedia.org/wiki/Serious_Sam)
     - However, capture zones are not a crucial part of this game
     - The game design is quite distinct from The Serious Sam series which is setted in e.g. egypt with mostly grounded entities
     - In IcoSphere the design is focused on a futuristic environment and glass-like, solely floating enemies 
@@ -73,6 +74,7 @@ _All third-party materials are highly appreciated, thanks alot_
 
 Thanks to [Brackeys](https://www.youtube.com/channel/UCYbK_tjZ2OrIZFBvU6CCMiA) for usefull tutorials
 on shooting, progress bars & weapon switching.
+
 
 Free Assets from Unity AssetStore used:
 - Textures
