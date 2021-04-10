@@ -2,8 +2,8 @@
 ## Final project for "CS50's Introduction to Game Development"
 ### By Thomas Feuerstein :bearded_person:
 
-***This is a non-commercial, educational only project!***
-*My purpose in this is mainly to improve my skills in scripting in C#*
+***This is a non-commercial, educational only project!***<br>
+*My purpose in this is mainly to improve my skills in scripting in C#*<br>
 *and to get more familiar with working with the UnityEngine*
 
 ### Description
